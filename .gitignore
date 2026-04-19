@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+node_modules/
+logs/
+.remote-cache
+*.swp
+*.swo
+.idea/
+.vscode/
