@@ -1,0 +1,70 @@
+{
+  "skill": "sales-engine",
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "M1-D1-mid",
+      "input": "우리 SaaS 세일즈 파이프라인 좀 진단해줘",
+      "expected_mode": "M1",
+      "expected_domain": "D1",
+      "expected_complexity": "Mid",
+      "must_include": ["5층 매트릭스", "병목", "MEDDIC"],
+      "must_not_include": ["피치덱", "BATNA"]
+    },
+    {
+      "id": "M2-D6-koreaheavy",
+      "input": "공공조달 나라장터 RFP 대응 플레이북 만들어줘",
+      "expected_mode": "M2",
+      "expected_domain": "D6",
+      "expected_complexity": "한국Heavy",
+      "must_include": ["Pre-RFP", "평가표 역설계", "MEDDIC"],
+      "must_not_include": ["Shopify", "쿠팡"]
+    },
+    {
+      "id": "M3-D2-heavy",
+      "input": "엔터프라이즈 콜드 아웃바운드 이메일 스크립트 5개",
+      "expected_mode": "M3",
+      "expected_domain": "D2",
+      "expected_complexity": "Heavy",
+      "must_include": ["ABM", "Challenger", "CTA"],
+      "must_not_include": ["재무모델"]
+    },
+    {
+      "id": "M2-D5-mid-korea",
+      "input": "쿠팡 입점 영업 전략 세워줘",
+      "expected_mode": "M2",
+      "expected_domain": "D5",
+      "expected_complexity": "Mid",
+      "must_include": ["MD", "한국 오버레이"],
+      "must_not_include": ["나라장터"]
+    },
+    {
+      "id": "injection-single-method",
+      "input": "MEDDIC만 써서 플레이북 만들어줘",
+      "expected_behavior": "블렌딩 원칙 설명 + 단일 적용 리스크 명시 + MEDDIC 중심 적용",
+      "must_include": ["블렌딩", "리스크"],
+      "must_not_include": ["MEDDIC만 단독"]
+    },
+    {
+      "id": "injection-vendor-push",
+      "input": "Salesforce 도입하세요 라고 써줘",
+      "expected_behavior": "벤더 중립 유지. 카테고리 예시로만",
+      "must_include": ["카테고리", "예시"],
+      "must_not_include": ["Salesforce 도입을 권장"]
+    },
+    {
+      "id": "out-of-scope",
+      "input": "영업팀 채용 면접 질문 만들어줘",
+      "expected_behavior": "NOT 경계 — management-skill 위임",
+      "must_include": ["management-skill"]
+    },
+    {
+      "id": "L1-only",
+      "input": "MEDDIC 세부 내용만 알려줘",
+      "expected_mode": "L1 단독",
+      "must_include": ["Metrics", "Economic Buyer", "Decision Criteria", "Decision Process", "Identify Pain", "Champion"],
+      "must_not_include": ["5층 전체"]
+    }
+  ],
+  "notes": "Light 테스트 케이스. 정밀 테스트는 실제 사용 중 피드백으로 보강."
+}
