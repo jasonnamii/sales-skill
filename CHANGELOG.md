@@ -1,8 +1,8 @@
-# sales-engine Changelog
+# sales-skill Changelog
 
 ## v1.0.0 — 2026-04-19 (신규)
 
-**배경:** 세일즈 도메인 스킬 공백. 기존 biz-skill(전략), bp-guide(IR), negotiation-skill(협상), copywriting-engine(문구)으로는 세일즈 프로세스·방법론·파이프라인 진단·플레이북 설계가 커버 안 됨.
+**배경:** 세일즈 도메인 스킬 공백. 기존 biz-skill(전략), bp-guide(IR), negotiation-skill(협상), copywriting-skill(문구)으로는 세일즈 프로세스·방법론·파이프라인 진단·플레이북 설계가 커버 안 됨.
 
 **리서치 근거:**
 - A축(정전이론): 9대 방법론(BANT·MEDDIC·MEDDPICC·SPIN·Challenger·Sandler·SNAP·Solution Selling·JTBD) 비교. 2025 표준 = 단일 방법론 ✗, 블렌딩 만연
@@ -30,4 +30,4 @@
 - references/axioms.md, invariants.md
 - evals/cases.json (Light 테스트)
 
-**NOT 경계(11종):** biz-skill·copywriting-engine·negotiation-skill·bp-guide·financial-model·management-skill·holdings-consulting·person-profiler·hit-skill·meeting-engine·ceo-pipeline
+**NOT 경계(11종):** biz-skill·copywriting-skill·negotiation-skill·bp-guide·financial-model·management-skill·holdings-consulting·profiler-skill·hit-skill·meeting-minutes·ceo-pipeline

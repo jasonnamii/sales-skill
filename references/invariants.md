@@ -1,4 +1,4 @@
-# Invariants — sales-engine 본질 기능 보호
+# Invariants — sales-skill 본질 기능 보호
 
 버전업·최적화 시에도 유지되어야 하는 불가침 규칙.
 

@@ -1,4 +1,4 @@
-# Axioms — sales-engine 6대 설계 원칙
+# Axioms — sales-skill 6대 설계 원칙
 
 리서치(A·B·C·D·E축)에서 도출한 본질 규칙. 모든 산출물·로직이 따라야 함.
 
