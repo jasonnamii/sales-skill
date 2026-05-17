@@ -13,7 +13,28 @@ description: |
 
 세일즈를 **5층 × 6도메인 × 3모드**로 조직화한 진단·설계·실행 엔진. 단일 방법론 강요 ✗, 딜 복잡도 기반 블렌딩.
 
+
+## Skill Boundaries
+
+- **하는 것** — 세일즈 5층×6도메인×3모드 엔진.
+- **안 하는 것** — 사업전략(→biz-skill), 카피(→copywriting), 협상(→negotiation), 피치덱(→bp-guide), 재무(→financial-model), 조직(→management), 히트(→hit-skill), 회의(→meeting-minutes).
+
 ---
+
+## When to Use
+
+- 사용자가 "진단해줘", "설계해줘", "플레이북 만들어줘", "diagnose sales", "design playbook." 같은 표현으로 발동
+- 도메인 작업이 필요한 시점
+- **안 쓸 때** — 사업전략(→biz-skill), 카피(→copywriting), 협상(→negotiation), 피치덱(→bp-guide), 재무(→financial-model), 조직(→management), 히트(→hit-skill), 회의(→meeting-minutes).
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
 
 ## 절대 규칙
 
@@ -144,7 +165,39 @@ description: |
 모든 산출물 shaper-skill MUST 경유. → `shaper-skill/references/_common/cascade-must.md`
 
 
-## Gotchas
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/sales-skill_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | 진단서로, 플레이북으로, 스크립트로, .md로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/sales-skill/{YYYY-MM-DD}_{topic}.md` |
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/L1_method.md` | L1 method | 해당 단계 진입 시 |
+| `references/L2_funnel.md` | L2 funnel | 해당 단계 진입 시 |
+| `references/L3_metric.md` | L3 metric | 해당 단계 진입 시 |
+| `references/L4_stack.md` | L4 stack | 해당 단계 진입 시 |
+| `references/L5_korea.md` | L5 korea | 해당 단계 진입 시 |
+| `references/axioms.md` | axioms | 해당 단계 진입 시 |
+| `references/complexity_router.md` | complexity router | 해당 단계 진입 시 |
+| `references/invariants.md` | invariants | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `biz-skill`
+- 후속 작업 → `copywriting`
+- 후속 작업 → `negotiation`
+- 후속 작업 → `bp-guide`
+- 후속 작업 → `financial-model`
+
+## Failure Modes (Gotchas)
 
 | 함정 | 대응 |
 |------|------|
@@ -157,6 +210,14 @@ description: |
 | 6도메인 강제 매칭(애매한 케이스) | PREFLIGHT에서 형 확인. 모호하면 가장 가까운 도메인 + 인접 도메인 메모 |
 
 ---
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
 
 ## 트리거 사전 (한 줄 매칭)
 
