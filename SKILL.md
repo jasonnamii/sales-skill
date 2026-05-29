@@ -1,12 +1,7 @@
 ---
 name: sales-skill
 description: |
-  세일즈 5층×6도메인×3모드 엔진. 딜복잡도 라우터로 방법론 블렌딩. 한국 오버레이 디폴트.
-  P1: 세일즈엔진, 세일즈진단, 영업전략, 파이프라인, 플레이북, MEDDIC, BANT, SPIN, Challenger, MEDDPICC, ABM, RevOps, 나라장터, Pre-RFP.
-  P2: 진단해줘, 설계해줘, 플레이북 만들어줘, diagnose sales, design playbook.
-  P3: sales engine, sales playbook, pipeline coverage, MEDDIC, ABM, RevOps, forecasting.
-  P5: 진단서로, 플레이북으로, 스크립트로, .md로.
-  NOT: 사업전략(→biz-skill), 카피(→copywriting), 협상(→negotiation), 피치덱(→bp-guide), 재무(→financial-model), 조직(→management), 히트(→hit-skill), 회의(→meeting-minutes).
+  세일즈 5층×6도메인×3모드 엔진. 딜복잡도 라우터로 방법론 블렌딩. 한국 오버레이 디폴트. 트리거: 세일즈엔진, 세일즈진단, 영업전략, 파이프라인, 플레이북, MEDDIC, BANT, SPIN, Challenger, MEDDPICC, ABM, RevOps, 나라장터, Pre-RFP, 진단해줘, 설계해줘, 플레이북 만들어줘, diagnose sales, design playbook. NOT: 사업전략(→biz-skill), 카피(→copywriting), 협상(→negotiation), 피치덱(→bp-guide), 재무(→financial-model), 조직(→management), 히트(→hit-skill), 회의(→meeting-minutes).
 ---
 
 # Sales Skill — 세일즈 스킬
